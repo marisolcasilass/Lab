@@ -1,11 +1,13 @@
 pipeline {
     agent any
+
     stages {
         stage('Clonar Repositorio') {
             steps {
-                git 'https://github.com/Kristen7770/API-Docker-Py'
+                git url: 'https://github.com/marisolcasilass/Lab'
             }
         }
+        
         stage('Construir Imagen de Docker') {
             steps {
                 script {
@@ -13,6 +15,7 @@ pipeline {
                 }
             }
         }
+
         stage('Ejecutar Pruebas') {
             steps {
                 script {
