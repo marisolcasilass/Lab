@@ -9,16 +9,18 @@ pipeline {
         stage('Construir Imagen de Docker') {
             steps {
                 script {
-                    sh 'docker build -t mi_api_rest .'
+                    bat 'docker build -t mi_api_rest .' // Cambiado de sh a bat para Windows
                 }
             }
         }
         stage('Ejecutar Pruebas') {
             steps {
                 script {
-                    sh 'docker run mi_api_rest pytest tests/' // Ajusta según tu estructura de pruebas
+                    bat 'docker run mi_api_rest pytest tests/' // Cambiado de sh a bat para Windows
                 }
             }
         }
     }
 }
+
+
