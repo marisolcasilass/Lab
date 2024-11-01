@@ -43,5 +43,24 @@ Resultado:
 
 ![WhatsApp Image 2024-10-31 at 10 09 04 PM](https://github.com/user-attachments/assets/681dac3a-f845-4413-aa00-6998c3f61380)
 
+LISTA CORRIENDO LA API
+![a8057adc-9d7f-4e54-b066-7ce363833ac7](https://github.com/user-attachments/assets/6ee11359-6213-419e-ad05-e98c31173ae9)
+
+POR ID
+![90f229fd-77e3-4053-ac20-4794738409f4](https://github.com/user-attachments/assets/75cf5f7d-e8e5-4fdf-a5ae-62c1c09c3ad3)
+
+INSERT DE USUARIO
+![c2debaf1-e7d7-4048-91e9-15fc170cd82e](https://github.com/user-attachments/assets/8aa7ae3d-68fd-47f4-a247-b76977680030)
+
+ACTUALIZAR
+![3e624561-0800-432f-82a4-76fb24359987](https://github.com/user-attachments/assets/91dec1c8-10f3-4e9a-8385-e5ac23997cca)
+
+ELIMINAR
+![61025841-c002-445f-94a2-ef539fe7c862](https://github.com/user-attachments/assets/a02fb314-7ee6-4d22-8480-89715183197b)
+
+
+
+
+
 
 
