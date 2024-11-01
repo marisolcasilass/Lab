@@ -2,7 +2,7 @@
 
 - Api REST
 
-#Instrucciones:
+# Instrucciones:
 
 - Crear una API REST
 
@@ -27,8 +27,6 @@ docker run -p 5000:5000 apirest-running
 ![ice_screenshot_20241031-222802](https://github.com/user-attachments/assets/4045cfe0-9d8a-4daa-bca1-845521c941ac)
 
 ![ice_screenshot_20241031-222834](https://github.com/user-attachments/assets/4367c927-518f-4e2f-a69b-fe12d2792431)
-
-
 
 
 Resultado: 
