@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Juan Perez",
+        "edad": 20,
+        "domicilio": "Calle Falsa 123",
+        "telefono": "555-1234"
+    },
+    {
+        "nombre": "Ana Gomez",
+        "edad": 21,
+        "domicilio": "Calle Nueva 789",
+        "telefono": "6677889900"
+    },
+    {
+        "nombre": "Hola",
+        "edad": 25,
+        "domicilio": "Calle Nueva 789",
+        "telefono": "6677889900"
+    }
+]
