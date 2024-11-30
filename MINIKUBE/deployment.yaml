@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-alumnos-deployment
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: api-alumnos
+  template:
+    metadata:
+      labels:
+        app: api-alumnos
+    spec:
+      containers:
+      - name: api-alumnos
+        image: esaumpalumpa/api-alumnos:latest
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - name: my-database
+          mountPath: /mnt/data/sqlite
+      volumes:
+      - name: my-database
+        persistentVolumeClaim:
+          claimName: my-database-pvc 
